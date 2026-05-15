@@ -226,3 +226,47 @@ ul {
 .bg-lightgray{
     background-color: #ebeef0;
 }
+
+
+
+.overlay {
+  height: 100%;
+  width: 100%; 
+  position: absolute;
+  z-index: 999; 
+  left: 0;
+  background-color: #dee2e3; 
+  overflow-x: hidden;
+  transition: 0.5s; 
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%; 
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+.homepageCard{
+    width: 20%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.read-more:hover {
+    background-color: #212529 !important;
+    color: white !important;
+}
