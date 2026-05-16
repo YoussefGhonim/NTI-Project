@@ -13,15 +13,15 @@
     margin-left: auto;
 }
 
-.carousel-container{
+.carousel-container {
     background-color: #84a7a9;
 }
 
-.carousel-container2{
+.carousel-container2 {
     background-color: #cca786;
 }
 
-.carousel-container3{
+.carousel-container3 {
     background-color: #db5847;
 }
 
@@ -31,13 +31,13 @@
     padding-left: 10%;
 }
 
-.custom-carousel-caption p{
+.custom-carousel-caption p {
     font-size: 2.8rem;
     width: 80%;
     /* line-height: 3rem; */
 }
 
-.custom-carousel-caption button{
+.custom-carousel-caption button {
     padding: 2.5% 6%;
     font-weight: 700;
     border-radius: 5px;
@@ -68,14 +68,16 @@
 }
 
 .product-hover-btn {
-    background-color: #EBEEF0;
-    top: 10%;
-    right: 10%;
+    top: 5%;
+    right: 0%;
     padding: 2% 4%;
     border-radius: 5px;
+    display: none;
+}
 
-    /* display: flex;
-    flex-direction: column; */
+.products-carousel .item:hover .product-hover-btn {
+    display: flex;
+    flex-direction: column;
 }
 
 .custom-carousel-caption {
@@ -123,17 +125,6 @@
 
 .bg-red {
     background-color: #DB5847;
-}
-
-.product-hover-btn {
-    background-color: #EBEEF0;
-    top: 10%;
-    right: 10%;
-    padding: 2% 4%;
-    border-radius: 5px;
-
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .saleDiv p {
@@ -197,7 +188,7 @@ ul {
     list-style: none;
 }
 
-.footer{
+.footer {
     background-color: #1b1f22;
 }
 
@@ -219,51 +210,52 @@ ul {
     border: none;
 }
 
-.sm-text{
+.sm-text {
     font-size: 0.9rem;
 }
 
-.bg-lightgray{
+.bg-lightgray {
     background-color: #ebeef0;
 }
 
 
 
 .overlay {
-  height: 100%;
-  width: 100%; 
-  position: absolute;
-  z-index: 999; 
-  left: 0;
-  background-color: #dee2e3; 
-  overflow-x: hidden;
-  transition: 0.5s; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    background-color: #dee2e3;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
 .overlay-content {
-  position: relative;
-  top: 5%; 
-  width: 100%;
-  text-align: center;
-  color: white;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 
 .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  color: white;
-  text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
 }
 
-.homepageCard{
+.homepageCard {
     width: 20%;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; /* remove the gap so it doesn't close */
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
 }
 
 .read-more:hover {
